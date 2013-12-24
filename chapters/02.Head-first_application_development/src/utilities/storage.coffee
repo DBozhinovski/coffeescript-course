@@ -1,0 +1,3 @@
+class Storage
+
+@Storage = Storage

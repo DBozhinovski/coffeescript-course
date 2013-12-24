@@ -2,7 +2,7 @@ class Model
   constructor:(@key) ->
     @data = JSON.parse Storage.get(@key)
 
-  all: ->
+  @all: ->
     @data
 
   create: (record) ->
@@ -13,19 +13,19 @@ class Model
 
     false
 
-read: (id) ->
-  return @data[id] if @data[id]
-  false
+  @read: (id) ->
+    return @data[id] if @data[id]
+    false
 
-update: (record) ->
-  if @data[record.id]
-    @data[record.id] = record
-    @persist()
-    return true
+  update: (record) ->
+    if @data[record.id]
+      @data[record.id] = record
+      @persist()
+      return true
 
-  false
+    false
 
-  delete: (id) ->
+  @delete: (id) ->
     if @data[id]
       @data[id] = null
       delete @data[id]
@@ -34,7 +34,7 @@ update: (record) ->
 
     false
 
-  persist: ->
+  @persist: ->
     Storage.set @key, @data
 
 @Model = Model
