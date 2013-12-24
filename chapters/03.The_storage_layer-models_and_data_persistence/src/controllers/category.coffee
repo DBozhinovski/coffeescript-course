@@ -1,0 +1,4 @@
+class CategoryController extends Controllers.BaseController
+
+
+Controllers.CategoryController = CategoryController

@@ -1,8 +1,8 @@
-class Model
+class BaseModel
   constructor:(@key) ->
-    @data = JSON.parse Storage.get(@key)
+    @data = Storage.get(@key) or {}
 
-  @all: ->
+  all: ->
     @data
 
   create: (record) ->
@@ -13,7 +13,7 @@ class Model
 
     false
 
-  @read: (id) ->
+  read: (id) ->
     return @data[id] if @data[id]
     false
 
@@ -25,7 +25,7 @@ class Model
 
     false
 
-  @delete: (id) ->
+  delete: (id) ->
     if @data[id]
       @data[id] = null
       delete @data[id]
@@ -34,7 +34,7 @@ class Model
 
     false
 
-  @persist: ->
+  persist: ->
     Storage.set @key, @data
 
-@Model = Model
+Models.BaseModel = BaseModel

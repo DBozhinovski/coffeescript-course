@@ -3,16 +3,9 @@
 # watches files for changes, and compiles them to a single file
 task 'watch', 'live compile', ->
   source = spawn "coffee", ["-w","--join", "dist/app.js", "-c", "src"] # Watch for changes in the source dir
-  vendor = spawn "coffee", ["-w","--join", "dist/vendor.js", "-c", "vendor"] # Watch for changes in the vendor dir
 
   source.stdout.on "data", (stdout) ->
-    console.log stdout.toString.trim()
-
-  vendor.stdout.on "data", (stdout) ->
-   console.log stdout.toString.trim()
+    console.log stdout.toString().trim()
 
   source.stdout.on "error", (error) ->
-    console.log stdout.toString.trim()
-
-  vendor.stdout.on "error", (error) ->
-    console.log stdout.toString.trim()
+    console.log stdout.toString().trim()

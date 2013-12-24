@@ -1,6 +1,6 @@
 class Storage
   @get: (key) ->
-    localStorage.getItem JSON.parse(key)
+    JSON.parse localStorage.getItem(key)
 
   @set: (key, value) ->
     localStorage.setItem key, JSON.stringify(value)

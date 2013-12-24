@@ -1,3 +1,5 @@
-class CategoryModel extends Model
+class CategoryModel extends Models.BaseModel
   constructor: -> 
     super "category"
+
+Models.CategoryModel = CategoryModel

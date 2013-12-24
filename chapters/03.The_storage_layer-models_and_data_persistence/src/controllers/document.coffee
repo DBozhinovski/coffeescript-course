@@ -1,2 +1,3 @@
-class DocumentModel extends Model
-  constructor: ->
+class DocumentController extends Controllers.BaseController
+
+Controllers.DocumentController = DocumentController
