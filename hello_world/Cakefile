@@ -1,0 +1,6 @@
+{exec} = require "child_process"
+
+# watches files for changes, and compiles them to a single file
+task 'compile', 'compile all files in the directory', ->
+  exec "coffee -c --output . ./*.coffee", (error, stdout) -> # Watch for changes in the source dir
+    console.log "Done."

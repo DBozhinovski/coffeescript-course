@@ -3,7 +3,3 @@ class BaseView
 
   render: (data) ->
     @element.html @template(data)
-
-
-
-Views.BaseView = BaseView
