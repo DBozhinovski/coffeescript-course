@@ -1,6 +1,5 @@
 class CategoryController extends Controllers.BaseController
-
-  @init: ->
+  @init: =>
     super( new Models.CategoryModel(), {
       list: Views.CategoryListView
       item: Views.CategoryItemView

@@ -12,6 +12,7 @@ class DocumentListView extends Views.BaseView
       output += "</ul><div class='clear'></div>"
 
       output
+
   render: (data) ->
     super data
     @bind()
@@ -20,5 +21,6 @@ class DocumentListView extends Views.BaseView
     @element.find('li').on 'click', (event) ->
       id = $(event.currentTarget).attr "data-id"
       Controllers.DocumentController.show id
+
 
 Views.DocumentListView = DocumentListView
