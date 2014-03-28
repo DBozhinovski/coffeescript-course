@@ -1,0 +1,6 @@
+{
+	"author": "Darko Bozhinovski",
+	"dependencies": {
+		"wordpress": "*"
+	}
+}
