@@ -3,9 +3,9 @@ http = require "http"
 qs = require "querystring"
 
 wp = wordpress.createClient {
-  url: 'http://dbozhinovski.wordpress.com/'
-  username: "dbozhinovski"
-  password: "yormungander"
+  url: 'WORDPRESS_BLOG_URL'
+  username: "USERNAME"
+  password: "PASSWORD"
 }
 
 server = http.createServer (request, response) ->
