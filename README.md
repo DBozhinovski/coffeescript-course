@@ -8,7 +8,7 @@ This is the companion repository to my CoffeeScript course, published by PACKT. 
 
 ## By section
 1. CoffeeScript 101
-  - [Scope in CoffeeScript](.)
+  - [Scope in CoffeeScript](https://github.com/DBozhinovski/coffeescript-course/wiki/Scope-in-CoffeeScript)
   - [Cake and cakefiles](https://github.com/DBozhinovski/coffeescript-course/wiki/Cake-and-cakefiles)
 2. Head-first application development
   - [Design patterns](.)
