@@ -4,7 +4,7 @@
 *The companion repository*
 
 ## Preface
-This is the companion repository to my CoffeeScript course, published by PACKT. It's goal is to provide a template for the example application and finished code for each of the course sections. On top of that, it provides some additional articles, tutorials and tips to help along with learning the language. I believe that some of the finer points of CoffeeScript are best learned when tried in practice, and no amount of explanation can replace a good ol' getting-your-hands-dirty. That said, let's take a look at what the repository contains.
+This is the companion repository to my CoffeeScript course, published by PACKT. Its goal is to provide a template for the example application and finished code for each of the course sections. On top of that, it provides some additional articles, tutorials and tips to help along with learning the language. I believe that some of the finer points of CoffeeScript are best learned when tried in practice, and no amount of explanation can replace a good ol' getting-your-hands-dirty. That said, let's take a look at what the repository contains.
 
 ## By section
 1. CoffeeScript 101
