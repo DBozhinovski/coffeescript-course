@@ -11,7 +11,7 @@ This is the companion repository to my CoffeeScript course, published by PACKT. 
   - [Scope in CoffeeScript](https://github.com/DBozhinovski/coffeescript-course/wiki/Scope-in-CoffeeScript)
   - [Cake and cakefiles](https://github.com/DBozhinovski/coffeescript-course/wiki/Cake-and-cakefiles)
 2. Head-first application development
-  - [Design patterns](.)
+  - [Design patterns](https://github.com/DBozhinovski/coffeescript-course/wiki/Design-Patterns)
   - [Design patterns in CoffeeScript (and JavaScript)](.)
 3. The storage layer - models and data persistence
   - [Using an API as a storage solution](.)
