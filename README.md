@@ -22,3 +22,5 @@ This is the companion repository to my CoffeeScript course, published by PACKT. 
 ## Resources
 Coming soon
 
+## License - [MIT](http://opensource.org/licenses/MIT)
+
